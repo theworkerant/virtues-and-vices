@@ -11,5 +11,30 @@
 // about supported directives.
 //
 
-//= require_tree ./lib
-//= require_tree .
+
+//= require lib/jquery-2.0.3
+//= require lib/jquery.cookie
+//= require lib/moment.min
+//= require lib/progress_bar
+//= require lib/bootstrap
+
+// EMBER
+//= require lib/handlebars-1.0.0
+//= require lib/ember
+// require lib/ember_canary
+//= require lib/ember-data
+
+//= require_tree ./templates
+
+//= require vandv_app
+
+//= require_tree ./routes
+//= require_tree ./mixins
+//= require_tree ./models
+// require      ./controllers/authenticated_controller
+//= require_tree ./controllers
+//= require_tree ./initializers
+//= require_tree ./components
+//= require_tree ./helpers
+//= require_tree ./views
+
